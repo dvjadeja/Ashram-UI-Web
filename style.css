@@ -1,0 +1,143 @@
+*{
+    
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(1,1,1,0),rgba(1,1,1,0.1)),url(Kalyandasbapu2.jpg);
+/*    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(Kalyandasbapu2.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+nav{
+    
+    width: 100%; height: 15vh;
+    background: liner-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)) ; display: flex; justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+nav .navigation:hover{
+    color: rgb(176, 179, 13);
+}
+
+nav .logo{
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-shadow: 1px 1px 1px black; 
+    /* width: 25%; text-align: center;*/
+    
+}
+
+nav .navigation{
+    
+    width: 35%;
+    text-decoration: none;
+    display: flex; justify-content: space-around;
+}
+
+nav .navigation a {
+    width: 25%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+nav .navigation a:first-child{
+    
+    color: #00b894;
+}
+
+main{
+    
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+sextion {
+    
+    
+}
+main section h3{
+    
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 3px black;
+}
+
+main section h1{
+    
+    font-size: 55px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+main section p{
+    
+    font-size: 25px;
+    color: aliceblue;
+    word-spacing: 2px;
+    margin-bottom: 25px; 
+    text-shadow: 1px 1px 4px black;
+    
+}
+.btnone{
+    
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: white;
+    color: black;
+    
+}
+
+.btntwo{
+    
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: #00b894;
+    color: white;
+}
+
+.change_content: after{
+    
+    content: '';
+    animation: changetext 10s infinite linear;
+    
+}
+
+
+
+@keyframes changetext{
+    0%{content: "Hingariya";}
+    20%{content: "Makda";}
+}
